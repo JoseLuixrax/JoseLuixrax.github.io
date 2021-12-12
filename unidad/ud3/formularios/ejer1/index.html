@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Ejemplo Formulario</h1>
+    <form action="mailto:joseluisperez232003@gmail.com" method="post" name="formulario1">
+        <p>
+        <label> Nombre:
+        <input type="text" name="nombre" placeholder="Nombre" maxlength="25"/>
+        </label>
+        </p>
+        <p>
+        <label>Fecha de nacimiento:
+        <input type="date" name="nacimiento" placeholder="Fecha de nacimiento"/>
+        </label>
+        </p>
+        <p>
+        <label> Número de horas:
+        <input type="number" name="nhoras" placeholder="Horas diarias" title="Horas diarias invertidas en video juegos"/>
+        </label>
+        </p>
+        <p>
+        <label> Email:
+        <input type="email" name="Email" placeholder="email@example.com"/>
+        </label>
+        </p>
+        
+        <p>
+        <label>Video Consolas:
+        <input type="checkbox" name="vc1" value="PS"/>PS
+        <input type="checkbox" name="vc2" value="XBOX"/>XBOX
+        <input type="checkbox" name="vc3" value="Nintendo"/>Nintendo
+        <input type="checkbox" name="vc4" value="PC"/>PC
+        </label>
+        </p>
+
+        <p>
+        <label>Juego Preferido:
+        <input type="radio" name="vjp" value="TES"/>The Elder Scrolls
+        <input type="radio" name="vjp" value="Mine"/>Minecraft
+        <input type="radio" name="vjp" value="LOL"/>League of legends
+        <input type="radio" name="vjp" value="Diablo"/>Diablo
+        </label>
+        </p>
+        <textarea name="descripcion" cols="30" rows="10" placeholder="Descripción"></textarea>
+
+
+        <p>
+        <select name="Grupos">
+            <option disabled selected>---</option>
+            <option value="1">1 DAW</option>
+            <option value="2">2 DAW</option>
+            <option value="3">1 ASIR</option>
+            <option value="4">2 ASIR</option>
+        </select>
+        </p>
+
+
+
+
+        <p>
+        <input type="submit" name="submit" value="Enviar"/>
+        </p>
+
+    </form>
+</body>
+</html>

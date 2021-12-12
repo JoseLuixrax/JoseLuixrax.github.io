@@ -1,0 +1,22 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="svg_50">
+   <path stroke="#000" id="svg_34" d="m233.14622,275.89066l168.51864,-125.86905l158.40628,142.40221l-168.51864,125.86905l-158.40628,-142.40221z" fill="#fff"/>
+   <path stroke="#000" id="svg_38" d="m230.52443,275.45829l162.73502,66.45087l167.1159,-49.76974l-329.85091,-16.68113z" fill="#fff"/>
+   <text stroke="#000" transform="matrix(2.00778 0 0 2.32558 -95.8862 -192.569)" xml:space="preserve" text-anchor="start" font-family="'Reem Kufi'" font-size="24" stroke-width="0" id="svg_41" y="250.71423" x="229.37855" fill="#000000">de</text>
+   <g stroke="null" id="svg_48">
+    <g stroke="null" id="svg_33">
+     <path stroke="#000" id="svg_31" d="m28.35632,330.98423l-11.24967,-134.42297l116.46165,-6.51994l-105.21198,140.94291z" fill="#fff"/>
+     <path stroke="#000" id="svg_30" d="m318.05221,516.68664l-230.43921,-264.89253l46.37627,-61.7071l258.26496,227.86828l-74.20202,98.73136z" fill="none"/>
+    </g>
+    <text stroke="#000" transform="matrix(1.91925 2.00992 -1.34653 1.72504 312.606 -588.965)" xml:space="preserve" text-anchor="start" font-family="'Reem Kufi'" font-size="24" stroke-width="0" id="svg_40" y="331.11075" x="134.66133" fill="#000000">Lenguaje</text>
+   </g>
+   <g stroke="null" transform="matrix(2.00763 0.0284 -0.024519 2.32541 -89.7215 -205.918)" id="svg_49">
+    <path transform="rotate(48.6947 345.018 216.404)" stroke="#000" id="svg_32" d="m314.39213,324.86102l30.62556,-216.91467l30.62556,216.91467l-61.25112,0z" fill="none"/>
+    <text stroke="#000" transform="rotate(-42.1287 312.96 240.247) matrix(1.45661 0 0 1 -174.195 0)" xml:space="preserve" text-anchor="start" font-family="'Reem Kufi'" font-size="24" id="svg_42" y="248.62812" x="294.23786" stroke-width="0" fill="#000000">Marcas</text>
+   </g>
+  </g>
+ </g>
+</svg>
