@@ -1,0 +1,24 @@
+td[name="Prog"] {
+    background-color: greenyellow;
+}
+td[name="BBDD"] {
+    background-color: aqua;
+}
+td[name="SisInf"] {
+    background-color: red;
+}
+td[name="LMSGI"] {
+    background-color: grey;
+}
+td[name="EEDD"] {
+    background-color:blue;
+}
+td[name="FOL"] {
+    background-color: #303c53;
+}
+td[name="Separador"] {
+    background-color:#eaa8ee;
+}
+th[name="Separador"] {
+    background-color:#eaa8ee;
+}

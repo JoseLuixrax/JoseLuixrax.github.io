@@ -1,0 +1,9 @@
+p, span {
+    font-size: 10px;
+}
+p span {
+    font-size: 14px;
+}
+header p {
+    font-size: 22px;
+}
