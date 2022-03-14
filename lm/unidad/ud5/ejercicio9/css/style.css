@@ -1,0 +1,114 @@
+header {
+    margin: 0;
+    background-color: crimson;   
+    border-color: black;
+    border-width: 1px;
+    border: solid;
+    
+}
+main{
+    background-color: grey;
+    margin: 0;
+    border-color: black;
+    border-width: 1px;
+    border: solid;
+}
+@media (max-width: 1920px) {
+    .flex-container{
+        display: flex;
+    }
+    .principal {
+        background-color: yellow;
+        border-width: 1px;
+        border: solid;
+        border-color: white;
+        padding: 6px;
+        margin: 8px;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+    .content {
+        background-color: blue;
+        border-width: 1px;
+        border: solid;
+        border-color: white;
+        padding: 6px;
+        margin: 8px;
+        margin-top: 0;
+        margin-bottom: 0;
+        flex-grow: 1;
+    }
+    .aside {
+        background-color: blueviolet;
+        border-width: 1px;
+        border: solid;
+        border-color: black;
+        padding: 6px;
+        margin: 8px;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-bottom: 0px;
+        flex-grow: 0;
+
+    }
+    .footer {
+        background-color: crimson;
+        border-color: black;
+        border-width: 1px;
+        border-top: 0px;
+        border: solid;
+        padding: 6px;
+        margin: 8px;
+        margin-top: 0;
+    }
+    nav{
+        background-color: lightgreen;
+        border:2px;
+        border: solid;
+    }
+    .container{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction:row;
+    }
+    .ul{
+        display: flex;
+        justify-content:center;
+        flex-direction:row;
+    }
+    a{
+        justify-content: center;
+        border-color:black ;
+        border: 2px;
+    }
+    ul{
+        list-style: none;
+    }
+    a:hover{
+        color: aqua;
+        background-color: blue;
+        border-radius: 3px;
+        padding: 5px;
+    }
+    a{
+        text-decoration: none;
+        color: blue;
+    }
+}
+
+@media (max-width: 640px) {
+    .flex-container{
+        display: flex;
+    }
+    .aside{
+        margin-left: 0px;
+    }
+    .content{
+        margin-right: 0px;
+    }
+}
+
+
+
+
