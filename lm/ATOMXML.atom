@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>XML Atom Channel Jose Luis Perez Lara LM</title>
+  <link href="https://joseluixrax.github.io"/>
+  <updated>2022-04-01T12:20:20Z</updated>
+  <author>
+    <name>Jose Luis Perez Lara</name>
+  </author>
+  <id>https://joseluixrax.github.io</id>
+
+  <entry>
+    <title>Ejercicio 1 Tema 6</title>
+    <link href="https://joseluixrax.github.io/lm/unidad/ud6/ejercicio1/index.xhtml"/>
+    <id>https://joseluixrax.github.io/lm/unidad/ud6/ejercicio1/index.xhtml</id>
+    <updated>2022-04-01T12:22:22Z</updated>
+    <summary>Ejercicio 1 Tema 6</summary>
+  </entry>
+  <entry>
+    <title>Ejercicio 2 Tema 6</title>
+    <link href="https://joseluixrax.github.io/lm/unidad/ud6/ejercicio2/index.xml"/>
+    <id>https://joseluixrax.github.io/lm/unidad/ud6/ejercicio2/index.xml</id>
+    <updated>2022-04-01T12:23:00Z</updated>
+    <summary>Ejercicio 1 Tema 6</summary>
+  </entry>
+  <entry>
+    <title>Ejercicio 3 Tema 6</title>
+    <link href="https://joseluixrax.github.io/lm/unidad/ud6/ejercicio3/index.xml"/>
+    <id>https://joseluixrax.github.io/lm/unidad/ud6/ejercicio3/index.xml</id>
+    <updated>2022-04-01T12:23:03Z</updated>
+    <summary>Ejercicio 1 Tema 6</summary>
+  </entry>
+</feed>
