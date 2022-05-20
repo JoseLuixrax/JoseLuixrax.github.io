@@ -14,19 +14,21 @@ tr {
 </style>
 </head>
 <body>
-  <h2>My CD Collection</h2>
-  <table>
-    <tr >
-      <th>Title</th>
-      <th>Artist</th>
-    </tr>
-    <xsl:for-each select="catalog/cd[artist='Bob Dylan']">
-      <tr>
-        <td><xsl:value-of select="title"/></td>
-        <td><xsl:value-of select="artist"/></td>
-      </tr>
-    </xsl:for-each>
-  </table>
+  <h2>Links a los horarios</h2>
+  <xsl:for-each select="informatica/cursos/curso">
+  <ul>
+      <li>
+        <a>
+            <xsl:attribute name="href">
+              <xsl:value-of select="@enlace"/>
+            </xsl:attribute>
+            <xsl:value-of select="@id"/>
+        </a>
+    </li>
+
+  </ul>
+  </xsl:for-each>
+
 </body>
 </html>
 </xsl:template>

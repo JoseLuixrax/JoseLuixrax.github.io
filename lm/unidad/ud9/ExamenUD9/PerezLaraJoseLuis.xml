@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./Index.xsl"?>
+<informatica>
+<cursos>
+    <curso id="DAW" enlace="Horariodaw.xml">
+	    <horario>
+          <lunes>
+              <primera>Prog</primera>
+              <segunda>Prog</segunda>
+              <tercera>BBDD</tercera>
+              <cuarta>BBDD</cuarta>
+              <quinta>FOL</quinta>
+              <sexta>FOL</sexta>
+          </lunes>
+          <martes>
+              <primera>FOL</primera>
+              <segunda>SISINF</segunda>
+              <tercera>SISINF</tercera>
+              <cuarta>SISINF</cuarta>
+              <quinta>PROG</quinta>
+              <sexta>PROG</sexta>
+          </martes>
+          <miercoles>
+              <primera>BBDD</primera>
+              <segunda>BBDD</segunda>
+              <tercera>SISINF</tercera>
+              <cuarta>SISINF</cuarta>
+              <quinta>PROG</quinta>
+              <sexta>PROG</sexta>
+          </miercoles>
+          <jueves>
+              <primera>LM</primera>
+              <segunda>LM</segunda>
+              <tercera>PROG</tercera>
+              <cuarta>PROG</cuarta>
+              <quinta>SISINF</quinta>
+              <sexta>SISINF</sexta>
+          </jueves>
+          <viernes>
+              <primera>SISINF</primera>
+              <segunda>SISINF</segunda>
+              <tercera>BBDD</tercera>
+              <cuarta>BBDD</cuarta>
+              <quinta>LM</quinta>
+              <sexta>LM </sexta>
+          </viernes>
+		</horario>
+	</curso>
+	 <curso id="ASIR" enlace="Horarioasir.xml">
+	    <horario>
+          <lunes>
+              <primera>LM</primera>
+              <segunda>LM</segunda>
+              <tercera>PROG</tercera>
+              <cuarta>PROG</cuarta>
+              <quinta>SISINF</quinta>
+              <sexta>SISINF</sexta>
+          </lunes>
+          <martes>
+              <primera>Prog</primera>
+              <segunda>Prog</segunda>
+              <tercera>BBDD</tercera>
+              <cuarta>BBDD</cuarta>
+              <quinta>FOL</quinta>
+              <sexta>FOL</sexta>
+          </martes>
+          <miercoles>
+              <primera>SISINF</primera>
+              <segunda>SISINF</segunda>
+              <tercera>BBDD</tercera>
+              <cuarta>BBDD</cuarta>
+              <quinta>LM</quinta>
+              <sexta>LM </sexta>>
+          </miercoles>
+          <jueves>
+              <primera>FOL</primera>
+              <segunda>SISINF</segunda>
+              <tercera>SISINF</tercera>
+              <cuarta>SISINF</cuarta>
+              <quinta>PROG</quinta>
+              <sexta>PROG</sexta>
+          </jueves>
+          <viernes>
+              <primera>BBDD</primera>
+              <segunda>BBDD</segunda>
+              <tercera>SISINF</tercera>
+              <cuarta>SISINF</cuarta>
+              <quinta>PROG</quinta>
+              <sexta>PROG</sexta>
+          </viernes>
+		</horario>
+	</curso>
+</cursos>
+</informatica>

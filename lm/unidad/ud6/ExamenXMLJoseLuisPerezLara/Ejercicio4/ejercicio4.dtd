@@ -1,0 +1,8 @@
+<!ELEMENT modelos (modelo+)>
+    <!ELEMENT modelo (#PCDATA | toner | paginas | paginas_minuto)*>
+    <!ATTLIST modelo id ID #REQUIRED>
+    <!ATTLIST modelo modelos_compatibles IDREF #IMPLIED>
+        <!ELEMENT toner (#PCDATA)>
+            <!ATTLIST toner modelos_compatibles CDATA #REQUIRED>
+        <!ELEMENT paginas (#PCDATA)>
+        <!ELEMENT paginas_minuto (#PCDATA)>

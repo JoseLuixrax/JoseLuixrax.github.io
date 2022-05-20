@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cordofly xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation="Cordofly.xsd">
+    <aviones>
+        <avion cod="Avion1">
+            <modelo>Airbus A319</modelo>
+            <numpasajeros>126</numpasajeros>
+        </avion>
+    </aviones>
+    <aeropuertos>
+        <aeropuerto cod="AeroPuerto1">
+            <ciudad>
+                Malaga
+            </ciudad>
+            <pais>
+                España
+            </pais>
+        </aeropuerto>
+        <aeropuerto cod="AeroPuerto2">
+            <ciudad>
+                Londres
+            </ciudad>
+            <pais>
+                ReinoUnido
+            </pais>
+        </aeropuerto>
+    </aeropuertos>
+    <rutas>
+        <ruta cod="Ruta1">
+            <aeropuertosruta>
+                <aeropuertosalida>
+                    AeroPuerto1
+                </aeropuertosalida>
+                <aeropuertollegada>
+                    AeroPuerto2
+                </aeropuertollegada>
+            </aeropuertosruta>
+
+            <numvuelo>MA0316</numvuelo>
+            <horas>
+                <despegue>
+                    15:00
+                </despegue>
+                <aterrizaje>
+                    17:15
+                </aterrizaje>
+            </horas>
+            <avionutilizado>
+                Avion1
+            </avionutilizado>
+        </ruta>
+    </rutas>
+</cordofly>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE modelos SYSTEM "ejercicio4.dtd">
+<modelos>
+    <modelo id="hp556">No disponible</modelo>
+    <modelo id="hp555" modelos_compatibles = "hp444 hp556">
+        Este modelo tiene un
+        <toner modelos_compatibles="hp556">toner t18928</toner>
+        que tiene una capacidad de
+        <paginas>3000</paginas>
+        a una velocidad de
+        <paginas_minuto>15</paginas_minuto>
+        El precio es de 360
+    </modelo>
+    <modelo id="hp557">No disponible</modelo>
+    <modelo id="hp154">No disponible</modelo>
+    <modelo id="hp444" modelos_compatibles="hp555 hp154">
+        Este modelo tiene un
+        <toner modelos_compatibles="hp556">toner t42928</toner>
+        que tiene una capacidad de
+        <paginas>2000</paginas>
+        a una velocidad de
+        <paginas_minuto>10</paginas_minuto>
+        El precio es de 260
+    </modelo>
+    </modelos>

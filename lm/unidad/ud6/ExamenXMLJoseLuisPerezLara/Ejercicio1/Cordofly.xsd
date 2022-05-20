@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="cordofly">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="aviones" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="avion" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="modelo" minOccurs="1" maxOccurs="1">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="Airbus A319"/>
+                                                    <xs:enumeration value="Airbus A320"/>
+                                                    <xs:enumeration value="Boeing 747"/>
+                                                    <xs:enumeration value="Boeing 777"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="numpasajeros" >
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:positiveInteger">
+                                                    <xs:minExclusive value="50"/>
+
+                                                    <xs:maxInclusive value="300"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        
+                                    </xs:sequence>
+                                    <xs:attribute name="cod" type="xs:ID"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="aeropuertos" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="aeropuerto" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ciudad" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                                        <xs:element name="pais" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="cod" type="xs:ID"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="rutas" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ruta" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="aeropuertosruta" maxOccurs="1" minOccurs="1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="aeropuertosalida" maxOccurs="1" minOccurs="1" type="xs:string"/>
+                                                    <xs:element name="aeropuertollegada" maxOccurs="1" minOccurs="1" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="numvuelo" maxOccurs="1" minOccurs="1">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="[A-Z][A-Z][0-9][0-9][0-9][0-9]"></xs:pattern>
+
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        
+                                        <xs:element name="horas" maxOccurs="1" minOccurs="1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="despegue" maxOccurs="1" minOccurs="1" type="xs:string"/>
+                                                    <xs:element name="aterrizaje" maxOccurs="1" minOccurs="1" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="avionutilizado" minOccurs="1" maxOccurs="1" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="cod" type="xs:ID"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<series xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="ejercicio3.xsd">
+    <serie codigo="c1" temporadas="1" año="2021">
+        <titulo>the rooftop series</titulo>
+        <nacionalidad>Estados Unidos</nacionalidad>
+        <genero>Música</genero>
+        <clasificacion edad="tp"/>
+        <web_oficial>http://www.rooftop.com</web_oficial>
+        <sinopsis>
+            The Rooftop Series is a curated place to find new music and
+            artists before they hit the mainstream.
+        </sinopsis>
+        <director>Madison McIntyre </director>
+        <reparto>
+            <actor>Blair West </actor>
+            <actor>Cade Hoppe</actor>
+        </reparto>
+        <enlace_imdb>http://www.uip.es</enlace_imdb>
+        <cartel>c1.jpg</cartel>
+    </serie>   
+    
+    <serie codigo="c2" temporadas="1" año="2021">
+        <titulo>the rooftop series</titulo>
+        <nacionalidad>Estados Unidos</nacionalidad>
+        <genero>Música</genero>
+        <clasificacion edad="12"/>
+        <web_oficial>http://www.rooftop.com</web_oficial>
+        <sinopsis>
+            The Rooftop Series is a curated place to find new music and
+            artists before they hit the mainstream.
+        </sinopsis>
+        <director>Madison McIntyre </director>
+        <reparto>
+            <actor>Blair West </actor>
+        </reparto>
+    </serie>    
+
+</series>
