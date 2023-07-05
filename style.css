@@ -47,7 +47,6 @@ h2 {
 #hertas img {
     position: absolute;
     animation: desplazamiento 3s linear infinite;
-    /* height: 50vh; */
 }
 
 @keyframes desplazamiento {
