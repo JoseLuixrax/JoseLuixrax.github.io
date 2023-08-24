@@ -58,6 +58,9 @@ window.addEventListener("DOMContentLoaded", function () {
     siButton.addEventListener("click", function(){
        alert("Ya lo sabia yo"); 
     });
+    noButton.addEventListener("click", function(){
+        alert("Enhorabuenas has conseguido pulsar el botón, por desgracia sigues siendo gay");
+    })
 
     function mover() {
         activeFlag = Math.floor(Math.random() * Object.keys(flags).length) + 1;
