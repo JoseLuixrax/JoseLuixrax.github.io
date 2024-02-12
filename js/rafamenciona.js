@@ -15,29 +15,29 @@ window.addEventListener("DOMContentLoaded", function(){
 
     obejoBtn.addEventListener("click", function(){
         obejoRealCount++;
-        obejoCount.innerHTML = obejoRealCount;
         localStorage.setItem("obejoCount", obejoRealCount);
+        obejoCount.innerHTML = localStorage.getItem("obejoCount");
     });
 
     avbarcelonaBtn.addEventListener("click", function(){
         avbarcelonaRealCount++;
-        avbarcelonaCount.innerHTML = avbarcelonaRealCount;
         localStorage.setItem("avbarcelonaCount", avbarcelonaRealCount);
+        avbarcelonaCount.innerHTML = localStorage.getItem("avbarcelonaCount");
     });
     
     obejoBtnNeg.addEventListener("click", function(){
         if(obejoRealCount > 0){
             obejoRealCount--;
-            obejoCount.innerHTML = obejoRealCount;
             localStorage.setItem("obejoCount", obejoRealCount);
+            obejoCount.innerHTML = localStorage.getItem("obejoCount");
         }
     });
 
     avbarcelonaBtnNeg.addEventListener("click", function(){
         if(avbarcelonaRealCount > 0){
             avbarcelonaRealCount--;
-            avbarcelonaCount.innerHTML = avbarcelonaRealCount;
             localStorage.setItem("avbarcelonaCount", avbarcelonaRealCount);
+            avbarcelonaCount.innerHTML = localStorage.getItem("avbarcelonaCount");
         }
     });
 
