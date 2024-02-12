@@ -5,6 +5,7 @@ window.addEventListener("DOMContentLoaded", function(){
     let avbarcelonaCount = document.getElementById("avbarcelonaCount");
     let obejoBtnNeg = document.getElementById("obejoBtnNeg");
     let avbarcelonaBtnNeg = document.getElementById("avbarcelonaBtnNeg");
+    let resetBtn = document.getElementById("resetBtn");
 
     let obejoRealCount = this.localStorage.getItem("obejoCount") ? this.localStorage.getItem("obejoCount") : 0;
     let avbarcelonaRealCount = this.localStorage.getItem("avbarcelonaCount") ? this.localStorage.getItem("avbarcelonaCount") : 0;
@@ -38,5 +39,12 @@ window.addEventListener("DOMContentLoaded", function(){
             avbarcelonaCount.innerHTML = avbarcelonaRealCount;
             localStorage.setItem("avbarcelonaCount", avbarcelonaRealCount);
         }
+    });
+
+    resetBtn.addEventListener("click", function(){
+        localStorage.setItem("obejoCount", 0);
+        localStorage.setItem("avbarcelonaCount", 0);
+        obejoCount.innerHTML = 0;
+        avbarcelonaCount.innerHTML = 0;
     });
 });

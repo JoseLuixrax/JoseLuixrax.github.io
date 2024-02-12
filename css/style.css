@@ -73,3 +73,12 @@ td,th {
     text-align: center;
     font-size: 1em;
 }
+
+#section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 35vh;
+    gap: 20px;  
+}
