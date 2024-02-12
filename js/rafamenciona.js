@@ -46,5 +46,7 @@ window.addEventListener("DOMContentLoaded", function(){
         localStorage.setItem("avbarcelonaCount", 0);
         obejoCount.innerHTML = 0;
         avbarcelonaCount.innerHTML = 0;
+        obejoRealCount = 0;
+        avbarcelonaRealCount = 0;
     });
 });
